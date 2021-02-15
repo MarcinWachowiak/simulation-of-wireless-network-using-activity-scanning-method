@@ -1,0 +1,12 @@
+#include "reset_tx_down_counter_event.h"
+
+
+
+ResetTXDownCounterEvent::ResetTXDownCounterEvent()
+{
+}
+
+
+ResetTXDownCounterEvent::~ResetTXDownCounterEvent()
+{
+}

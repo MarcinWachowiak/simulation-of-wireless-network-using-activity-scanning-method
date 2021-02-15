@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wireless_network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="packet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transmission.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generate_packet_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="start_transmission_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transmit_ack_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="random_num_gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mark_empty_channel_state_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reduce_tx_downcounter_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reset_tx_down_counter_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="end_packet_transmission_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="end_ack_transmission_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="successful_packet_transmission_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_lost_packet_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="end_ack_listening_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="schedule_retransmission_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="end_tx_sleep_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="start_channel_observing_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="probe_channel_state_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channel_empty_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channel_busy_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="update_channel_state_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="start_retransmission_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="simulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wireless_network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="receiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transmission.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generate_packet_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="start_transmission_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transmit_ack_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="random_num_gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mark_empty_channel_state_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reduce_tx_down_counter_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reset_tx_down_counter_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="end_packet_transmission_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="end_ack_transmission_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="successful_packet_transmission_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="remove_lost_packet_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="end_ack_listening_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="schedule_retransmission_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="end_tx_sleep_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="start_channel_observing_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="probe_channel_state_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="channel_empty_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="channel_busy_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="update_channel_state_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="start_retransmission_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SC Marcin Wachowiak.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

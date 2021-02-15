@@ -1,0 +1,58 @@
+[info] Generating RNG seeds this may take some time...
+[info] Finished generating and reading RNG seeds!
+[info] Object oriented computer simulation of discrete event systems (M1, A6e)
+
+[info] Simulation details:
+
+[info] Simulation Index:				1
+[info] Packet random number generator intensity(L):	0.0002272
+[info] Channel probability of success (TER):		0.8
+[info] Initial phase time length:			6000000	[ms]
+[info] Simulation time:					16000000	[ms]
+[info] TX and RX pair count(k):				16
+[info] Maximum retransmission number(LR):		6
+[info] Required channel free time (DIFS):		50
+
+[info] Formatting:
+[level] [timestamp] Description with optional details
+[info] Simulation finished with results:
+
+[info] Average packet error rate:	0.09228
+[info] Maximum packet error rate:	0.10237
+[info] Average retransmission count:	0.703	[per packet]
+[info] System throughput:		20.66	[packets/s]
+[info] Average packet delay time:	73.10	[ms]
+[info] Average packet await time:	60.15	[ms]
+
+[info] Packet error rate per each RX:
+[info] RX id: 0 PER: 0.09767
+[info] RX id: 1 PER: 0.09801
+[info] RX id: 2 PER: 0.09550
+[info] RX id: 3 PER: 0.07736
+[info] RX id: 4 PER: 0.08876
+[info] RX id: 5 PER: 0.09542
+[info] RX id: 6 PER: 0.09065
+[info] RX id: 7 PER: 0.10237
+[info] RX id: 8 PER: 0.08485
+[info] RX id: 9 PER: 0.09122
+[info] RX id: 10 PER: 0.09349
+[info] RX id: 11 PER: 0.09191
+[info] RX id: 12 PER: 0.09009
+[info] RX id: 13 PER: 0.09890
+[info] RX id: 14 PER: 0.08913
+[info] RX id: 15 PER: 0.09218
+[info] Object oriented computer simulation of discrete event systems (M1, A6e)
+
+[info] Simulation details:
+
+[info] Simulation Index:				2
+[info] Packet random number generator intensity(L):	0.0002272
+[info] Channel probability of success (TER):		0.8
+[info] Initial phase time length:			6000000	[ms]
+[info] Simulation time:					16000000	[ms]
+[info] TX and RX pair count(k):				16
+[info] Maximum retransmission number(LR):		6
+[info] Required channel free time (DIFS):		50
+
+[info] Formatting:
+[level] [timestamp] Description with optional details
